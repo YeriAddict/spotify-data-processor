@@ -50,6 +50,8 @@ The first step is to request your extended streaming history from Spotify. You c
 
 Once Spotify notifies you that your data is ready, you can download and unzip the provided folder. It will contain multiple files, including those starting with `Streaming_History_Audio`. These JSON files are of primary interest, as they contain detailed information about every song you’ve played.
 
+![raw_data_folder_image](appendix/raw_data_folder_image.png)
+
 To streamline the process:
 1. Remove all other irrelevant files from the folder.
 2. Place the relevant `Streaming_History_Audio` files in a folder named **`input`** at the root of this repository.
